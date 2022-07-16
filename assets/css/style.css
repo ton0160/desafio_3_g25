@@ -1,0 +1,108 @@
+body {
+    background-color: #000;
+    color: white;
+}
+
+header {
+    background-color: #000;
+    height: 73px;
+    text-align: center;
+    overflow: hidden;
+    font-family:'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: .2em;
+}
+
+#slider {
+    height: 727px;
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+}
+
+.desc {
+    font-family: raleway;
+    font-size: large;
+    font-weight: 300;
+    text-align: justify;
+    float: left;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.desc div {
+    width: 30%;
+    float: left;
+    padding: 5% 10% 5% 12%;
+}
+
+.img_iguana img {
+    float: right;
+    width: 30%;
+    padding: 3% 12% 3% 2%;
+}
+
+.caract {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #1E1A13;
+    color: white;
+    overflow: hidden;
+}
+
+.caract h2 {
+    margin: auto;
+    padding: 40px 0 40px 0;
+    text-align: center;
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.caract section {
+    width: 33%;
+    float: left;
+    text-align: center;
+    font-family: raleway;
+    font-weight: 300;
+    overflow: hidden;
+    padding-bottom: 35px;
+}
+
+.caract section p {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.img_ref {
+    width: 80%;
+    margin: auto;    
+}
+
+.img_ref img {
+    width: 30%;
+    margin: 40px 1% 40px 1%;
+    text-align: center;
+}
+
+.img_ref p {
+    display: inline;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: raleway;
+    font-weight: 300;
+    padding: 40px 0 40px 0;
+    background-color: #1E1A13;
+
+}
